@@ -48,7 +48,7 @@ function renderFootnotes(text) {
     html += '<span style="display: inline-block; vertical-align: top; padding-right: 10px;">';
     html += footNote.index;
     html += '.</span>';
-    html += '<span style="display: inline-block; vertical-align: top;">';
+    html += '<span style="display: inline; vertical-align: top;">';
     html += md.renderInline(footNote.content.trim());
     html += '</span>';
     html += '<a href="#fnref:' + footNote.index + '" rev="footnote"> ↩</a>';
